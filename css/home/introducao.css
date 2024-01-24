@@ -25,9 +25,6 @@
 .introducao-conteudo h1 {
   margin-bottom: 32px;
 }
-.introducao-conteudo h1 span {
-  color: var(--cor-p1);
-}
 .introducao-conteudo p {
   margin-bottom: 20px;
 }
