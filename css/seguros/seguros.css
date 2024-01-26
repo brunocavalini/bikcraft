@@ -35,17 +35,20 @@
 }
 .seguro-item a {
   grid-column: 1/-1;
-  justify-self: start;
 }
 .seguro-item li + li {
   margin-top: 20px;
 }
 .seguro-item li {
+  display: flex;
+  align-items: center;
   position: relative;
 }
 .seguro-item li::before {
   content: "";
-  content: url(../../img/icones/lista.svg);
+  width: 13px;
+  height: 9px;
+  background-image: url(../../img/icones/lista.svg);
   position: absolute;
   left: -21px;
   width: 13px;
