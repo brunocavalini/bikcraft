@@ -36,7 +36,8 @@
   grid-column: 1/-1;
   justify-self: start;
 }
-.footer-informacoes a:hover {
+.footer-informacoes a:hover,
+.footer-contato a:hover {
   color: var(--cor-1);
 }
 @media (max-width: 800px) {

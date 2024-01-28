@@ -1,3 +1,11 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .botao {
   display: inline-block;
   padding: 16px 32px;
@@ -68,7 +76,7 @@
   color: var(--cor-0);
 }
 
-.titul {
+.titulo {
   background-color: var(--cor-11);
   padding-top: 60px;
   padding-bottom: 60px;
