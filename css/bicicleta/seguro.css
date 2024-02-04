@@ -29,3 +29,27 @@
 .seguro-conteudo p {
   margin-bottom: 20px;
 }
+
+@media (max-width: 600px) {
+  .seguro-bg {
+    background: var(--cor-11);
+    box-shadow: inset 0px -80px var(--cor-12) ;
+  }
+  .seguro {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .seguro-imagem {
+    grid-row: 2;
+  }
+  .seguro-conteudo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .seguro h2 {
+    margin-bottom: 32px;
+  }
+  .seguro-conteudo p {
+    margin-bottom: 20px;
+  }
+}
