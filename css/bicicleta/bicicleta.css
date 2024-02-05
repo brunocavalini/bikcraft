@@ -50,6 +50,10 @@
   background-color: var(--cor-12);
   border-radius: 4px;
 }
+.bicicleta-comprar span img {
+  width: 16px;
+  height: 16px;
+}
 .bicicleta-conteudo h2 {
   text-transform: uppercase;
   letter-spacing: 0.015em;
