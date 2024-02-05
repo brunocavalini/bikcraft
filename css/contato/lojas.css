@@ -7,7 +7,7 @@
 .lojas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 0 40px;
 }
 .loja-rj,
 .loja-sp {
@@ -24,34 +24,32 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.lojas-conteudo h2 {
+.lojas-conteudo h3 {
   grid-column: 1/-1;
   margin-bottom: 32px;
 }
 .lojas-dados {
+  display: grid;
+  
   margin-bottom: 32px;
 }
 .lojas-dados {
-  border-left: 1px solid var(--cor-4);
+  display: grid;
+  gap: 8px;
+  border-left: 2px solid var(--cor-2);
+  padding-left: 12px;
 }
 .lojas-dados a {
   display: block;
 }
-.lojas-dados p,
-.lojas-dados a  {
-  margin-left: 12px;
-}
-.lojas-dados p:first-child,
-.lojas-dados a:first-child {
-  margin-bottom: 12px;
-}
+
 .lojas-conteudo > p {
   padding-left: 28px;
   background: url(../../img/icones/horario.svg) no-repeat 0px 0px
 }
 
 @media (max-width: 800px) {
-  .lojas {
+  .lojas-conteudo {
     grid-template-columns: 1fr;
   }
   #contato > article > h2 {
@@ -60,7 +58,8 @@
 }
 
 @media (max-width: 600px) {
-  .lojas-conteudo {
+  .lojas {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
